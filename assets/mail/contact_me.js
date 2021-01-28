@@ -58,7 +58,7 @@ $(function () {
                         $("<strong>").text(
                             "Sorry " +
                                 firstName +
-                                ", it seems that my mail server is not responding. Please try again later!"
+                                ", el servidor de email no funciona ahora mismo. Por favor inténtalo más tarde!"
                         )
                     );
                     $("#success > .alert-danger").append("</div>");
@@ -67,7 +67,7 @@ $(function () {
                 },
                 complete: function () {
                     setTimeout(function () {
-                        $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
+                        $this.prop("enable", true); // Re-enable submit button when AJAX call is complete
                     }, 1000);
                 },
             });
