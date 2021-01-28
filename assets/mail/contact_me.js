@@ -67,7 +67,7 @@ $(function () {
                 },
                 complete: function () {
                     setTimeout(function () {
-                        $this.prop("enable", true); // Re-enable submit button when AJAX call is complete
+                        $this.prop("disable", false); // Re-enable submit button when AJAX call is complete
                     }, 1000);
                 },
             });
