@@ -25,7 +25,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #1abc9c;
-  --secondary: #2c3e50;
+  --secondary: #102A2B ;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -64,9 +64,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #182d41;
+  color: #182d41;   
   text-align: left;
-  background-color: rgb(179, 255, 226);
+  background-color:  #C2EDF2 ;  /*rgb(179, 255, 226);*/
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #1b6e5c;
+  color: #31888C;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2471,8 +2471,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #2c3e50;
-  border-color: #2c3e50;
+  background-color: #102A2B ;
+  border-color: #102A2B ;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -2487,8 +2487,8 @@ fieldset:disabled a.btn {
 }
 .btn-secondary.disabled, .btn-secondary:disabled {
   color: #fff;
-  background-color: #2c3e50;
-  border-color: #2c3e50;
+  background-color: #102A2B ;
+  border-color: #102A2B ;
 }
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
   color: #fff;
@@ -2705,25 +2705,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #2c3e50;
-  border-color: #2c3e50;
+  color: #102A2B ;
+  border-color: #102A2B ;
 }
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #2c3e50;
-  border-color: #2c3e50;
+  background-color: #102A2B ;
+  border-color: #102A2B ;
 }
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
   box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.5);
 }
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #2c3e50;
+  color: #102A2B ;
   background-color: transparent;
 }
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .show > .btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #2c3e50;
-  border-color: #2c3e50;
+  background-color: #102A2B ;
+  border-color: #102A2B ;
 }
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.5);
@@ -4698,7 +4698,7 @@ a.badge-primary:focus, a.badge-primary.focus {
 
 .badge-secondary {
   color: #fff;
-  background-color: #2c3e50;
+  background-color: #102A2B ;
 }
 a.badge-secondary:hover, a.badge-secondary:focus {
   color: #fff;
@@ -6075,9 +6075,7 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-primary {
-  background-color: #1abc9c !important;     
-}
+
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -6085,8 +6083,13 @@ button.bg-primary:focus {
   background-color: #148f77 !important;
 }
 
+/*-------------------------------------------------------------------------------------- colores*/ 
+.bg-primary {
+  background-color: #31888C  !important;     /*#1abc9c-------------------------------------------*/
+}
+
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #102A2B !important; /*#102A2B --------------------------------------------------*/
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -6208,7 +6211,7 @@ button.bg-dark:focus {
 }
 
 .border-secondary {
-  border-color: #2c3e50 !important;
+  border-color: #102A2B  !important;
 }
 
 .border-success {
@@ -9786,7 +9789,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #178f77 !important;
+  color: #31888C !important; /* ----------- #178f77  --------------------------------------------------*/
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -10005,9 +10008,9 @@ h3 {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #102A2B; /*-----------------------------------------------------------------------/
   border-radius: 1rem;
-  border-color: #2c3e50 !important;
+  border-color:  #102A2B!important; /*-----------------------------------------------------------------*/
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -10016,7 +10019,7 @@ h3 {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50 !important;
+  color: #102A2B  !important; /*------------ #2c3e50 --------------------------------------------------------------------*/
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -10076,7 +10079,7 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #31888C;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10096,13 +10099,13 @@ h3 {
   #mainNav .navbar-nav {
     margin-top: 0;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #1abc9c;
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active { 
+    color: #fff; /* ---------------------------------------------------------------------------- ENCABEZADO ----------*/
+    background: #31888C;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #31888C;
   }
 
   #mainNav.navbar-shrink {
@@ -10182,7 +10185,7 @@ h3 {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #1abc9c;
+  color: #102A2B; /* -------------------------------------------------------------------------------------------------- las x de cerrar */
   opacity: 1;
 }
 
@@ -10225,7 +10228,7 @@ h3 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #1abc9c;
+  color: #e0a800;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -10235,10 +10238,10 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #102A2B; /*#102A2B ;-------------------------------------------------------------------*/
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #102A2B; /*#1a252f ----------------------------------------------------------------*/
 }
